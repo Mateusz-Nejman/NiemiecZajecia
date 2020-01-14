@@ -1,0 +1,20 @@
+{
+    "name": "mateusz/bazy_danych",
+    "type": "project",
+    "description": "Elo",
+    "require": {
+        "doctrine/orm": "^2.6",
+        "mongodb/mongodb": "^1.5"
+    },
+    "authors": [
+        {
+            "name": "Mateusz Nejman",
+            "email": "mateusz_nejman@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "":"src/"
+        }
+    }
+}
